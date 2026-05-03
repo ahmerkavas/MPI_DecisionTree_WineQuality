@@ -178,7 +178,7 @@ Efficiency measures how well the program uses `p` processes:
 efficiency = speedup / p
 ```
 
-Execution time for one train + predict run:
+Execution time for one complete training and prediction cycle:
 
 | Processes | Time (s) | Speedup | Efficiency |
 |---:|---:|---:|---:|

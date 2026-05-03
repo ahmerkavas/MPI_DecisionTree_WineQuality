@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">MPI Decision Tree Speedup Graph</title>
+  <desc id="desc">Speedup for 1, 2, 4, and 8 MPI processes using Wine Quality Decision Tree timings.</desc>
+  <rect width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">MPI Decision Tree Speedup</text>
+  <text x="450" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4b5563">Wine Quality dataset, speedup = T1 / Tp</text>
+
+  <line x1="120" y1="430" x2="800" y2="430" stroke="#111827" stroke-width="2"/>
+  <line x1="120" y1="80" x2="120" y2="430" stroke="#111827" stroke-width="2"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">
+    <line x1="120" y1="430" x2="800" y2="430" stroke="#e5e7eb"/>
+    <text x="108" y="435" text-anchor="end">0.0</text>
+    <line x1="120" y1="380" x2="800" y2="380" stroke="#e5e7eb"/>
+    <text x="108" y="385" text-anchor="end">0.5</text>
+    <line x1="120" y1="330" x2="800" y2="330" stroke="#e5e7eb"/>
+    <text x="108" y="335" text-anchor="end">1.0</text>
+    <line x1="120" y1="280" x2="800" y2="280" stroke="#e5e7eb"/>
+    <text x="108" y="285" text-anchor="end">1.5</text>
+    <line x1="120" y1="230" x2="800" y2="230" stroke="#e5e7eb"/>
+    <text x="108" y="235" text-anchor="end">2.0</text>
+    <line x1="120" y1="180" x2="800" y2="180" stroke="#e5e7eb"/>
+    <text x="108" y="185" text-anchor="end">2.5</text>
+    <line x1="120" y1="130" x2="800" y2="130" stroke="#e5e7eb"/>
+    <text x="108" y="135" text-anchor="end">3.0</text>
+    <line x1="120" y1="80" x2="800" y2="80" stroke="#e5e7eb"/>
+    <text x="108" y="85" text-anchor="end">3.5</text>
+  </g>
+
+  <polyline points="120,330 340,276 560,199 780,122" fill="none" stroke="#2563eb" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <circle cx="120" cy="330" r="7" fill="#2563eb"/>
+    <text x="120" y="310" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">1.00x</text>
+    <circle cx="340" cy="276" r="7" fill="#2563eb"/>
+    <text x="340" y="256" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">1.54x</text>
+    <circle cx="560" cy="199" r="7" fill="#2563eb"/>
+    <text x="560" y="179" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">2.31x</text>
+    <circle cx="780" cy="122" r="7" fill="#2563eb"/>
+    <text x="780" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">3.08x</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#374151">
+    <text x="120" y="460" text-anchor="middle">1</text>
+    <text x="340" y="460" text-anchor="middle">2</text>
+    <text x="560" y="460" text-anchor="middle">4</text>
+    <text x="780" y="460" text-anchor="middle">8</text>
+    <text x="450" y="505" text-anchor="middle" font-size="16" font-weight="700">MPI Processes</text>
+    <text x="36" y="255" transform="rotate(-90 36 255)" text-anchor="middle" font-size="16" font-weight="700">Speedup</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">
+    <rect x="608" y="470" width="12" height="12" fill="#2563eb"/>
+    <text x="628" y="481">Measured speedup</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">MPI Decision Tree Efficiency Graph</title>
+  <desc id="desc">Efficiency for 1, 2, 4, and 8 MPI processes using Wine Quality Decision Tree timings.</desc>
+  <rect width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">MPI Decision Tree Efficiency</text>
+  <text x="450" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4b5563">Wine Quality dataset, efficiency = speedup / p</text>
+
+  <line x1="120" y1="430" x2="800" y2="430" stroke="#111827" stroke-width="2"/>
+  <line x1="120" y1="80" x2="120" y2="430" stroke="#111827" stroke-width="2"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">
+    <line x1="120" y1="430" x2="800" y2="430" stroke="#e5e7eb"/>
+    <text x="108" y="435" text-anchor="end">0.0</text>
+    <line x1="120" y1="360" x2="800" y2="360" stroke="#e5e7eb"/>
+    <text x="108" y="365" text-anchor="end">0.2</text>
+    <line x1="120" y1="290" x2="800" y2="290" stroke="#e5e7eb"/>
+    <text x="108" y="295" text-anchor="end">0.4</text>
+    <line x1="120" y1="220" x2="800" y2="220" stroke="#e5e7eb"/>
+    <text x="108" y="225" text-anchor="end">0.6</text>
+    <line x1="120" y1="150" x2="800" y2="150" stroke="#e5e7eb"/>
+    <text x="108" y="155" text-anchor="end">0.8</text>
+    <line x1="120" y1="80" x2="800" y2="80" stroke="#e5e7eb"/>
+    <text x="108" y="85" text-anchor="end">1.0</text>
+  </g>
+
+  <polyline points="120,80 340,150.5 560,227 780,293.5" fill="none" stroke="#059669" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <circle cx="120" cy="80" r="7" fill="#059669"/>
+    <text x="120" y="60" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">1.00</text>
+    <circle cx="340" cy="150.5" r="7" fill="#059669"/>
+    <text x="340" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.77</text>
+    <circle cx="560" cy="227" r="7" fill="#059669"/>
+    <text x="560" y="207" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.58</text>
+    <circle cx="780" cy="293.5" r="7" fill="#059669"/>
+    <text x="780" y="273" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.39</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#374151">
+    <text x="120" y="460" text-anchor="middle">1</text>
+    <text x="340" y="460" text-anchor="middle">2</text>
+    <text x="560" y="460" text-anchor="middle">4</text>
+    <text x="780" y="460" text-anchor="middle">8</text>
+    <text x="450" y="505" text-anchor="middle" font-size="16" font-weight="700">MPI Processes</text>
+    <text x="36" y="255" transform="rotate(-90 36 255)" text-anchor="middle" font-size="16" font-weight="700">Efficiency</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">
+    <rect x="608" y="470" width="12" height="12" fill="#059669"/>
+    <text x="628" y="481">Measured efficiency</text>
+  </g>
+</svg>

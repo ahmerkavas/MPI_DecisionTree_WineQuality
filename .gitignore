@@ -1,0 +1,12 @@
+main.exe
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+*.user
+*.suo
+.vs/
+x64/
+Debug/
+Release/

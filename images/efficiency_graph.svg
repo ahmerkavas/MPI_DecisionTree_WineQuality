@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
   <title id="title">MPI Decision Tree Efficiency Graph</title>
-  <desc id="desc">Efficiency for 1, 2, 4, and 8 MPI processes using Wine Quality Decision Tree timings.</desc>
+  <desc id="desc">Efficiency for 1, 2, 4, and 8 MPI processes using Wine Quality Decision Tree train/test timings.</desc>
   <rect width="900" height="560" fill="#ffffff"/>
   <text x="450" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">MPI Decision Tree Efficiency</text>
-  <text x="450" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4b5563">Wine Quality dataset, efficiency = speedup / p</text>
+  <text x="450" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4b5563">80/20 train-test split, efficiency = speedup / p</text>
 
   <line x1="120" y1="430" x2="800" y2="430" stroke="#111827" stroke-width="2"/>
   <line x1="120" y1="80" x2="120" y2="430" stroke="#111827" stroke-width="2"/>
@@ -23,17 +23,17 @@
     <text x="108" y="85" text-anchor="end">1.0</text>
   </g>
 
-  <polyline points="120,80 340,150.5 560,227 780,293.5" fill="none" stroke="#059669" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="120,80 340,129 560,237.5 780,300.5" fill="none" stroke="#059669" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
 
   <g font-family="Segoe UI, Arial, sans-serif">
     <circle cx="120" cy="80" r="7" fill="#059669"/>
     <text x="120" y="60" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">1.00</text>
-    <circle cx="340" cy="150.5" r="7" fill="#059669"/>
-    <text x="340" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.77</text>
-    <circle cx="560" cy="227" r="7" fill="#059669"/>
-    <text x="560" y="207" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.58</text>
-    <circle cx="780" cy="293.5" r="7" fill="#059669"/>
-    <text x="780" y="273" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.39</text>
+    <circle cx="340" cy="129" r="7" fill="#059669"/>
+    <text x="340" y="109" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.86</text>
+    <circle cx="560" cy="237.5" r="7" fill="#059669"/>
+    <text x="560" y="217.5" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.55</text>
+    <circle cx="780" cy="300.5" r="7" fill="#059669"/>
+    <text x="780" y="280.5" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">0.37</text>
   </g>
 
   <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#374151">
